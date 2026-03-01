@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/valachmr'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/valachmr/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('valachmr-sp26')                                             // <------change this
+        KUBECONFIG = credentials('valachmr-225-sp26')                                             // <------change this
     }
 
     stages {
